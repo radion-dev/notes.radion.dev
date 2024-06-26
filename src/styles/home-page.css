@@ -1,0 +1,50 @@
+.home-page {
+  background-image: var(--cover-pettern);
+  flex: 1;
+  container-type: inline-size;
+  container-name: notes-container;
+}
+
+.home-page__content {
+  padding-top: 3em;
+  padding-bottom: 3em;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+
+.home-page__intro {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75em;
+}
+
+.home-page__intro h1 {
+  font-size: 2.5em;
+  color: var(--headline-text-color);
+}
+
+.home-page__intro p {
+  max-width: 50em;
+  font-size: 1.125em;
+  line-height: 1.625em;
+  color: var(--text-color);
+}
+
+@container notes-container (min-width: 700px) {
+  .home-page__intro h1 {
+    font-size: 3em;
+  }
+}
+
+@container notes-container (min-width: 1200px) {
+  .home-page__content {
+    padding-top: 4em;
+    padding-bottom: 4em;
+    gap: 4em;
+  }
+
+  .home-page__intro h1 {
+    font-size: 3.5em;
+  }
+}

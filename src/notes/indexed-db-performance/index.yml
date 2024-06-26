@@ -1,0 +1,20 @@
+title: 'Maximum IndexedDB performance with Storage Buckets'
+desc: 'The Chrome team has made a number of performance-related improvements to the implementation of IndexedDB (IDB).'
+date: 2024-09-26
+permalink: 'indexed-db-performance.html'
+tags:
+  - Blog
+  - JavaScript
+  - Chrome
+taps:
+  - title: Intro
+  - title: Cross-site
+  - title: Same-site
+  - title: Browser support
+  - title: Demo
+  - title: Hide irrelevant tracks
+  - title: Show all tracks
+  - title: Wrapping up
+  - title: Conclusion
+  - title: Acknowledgements
+layout: note.njk
