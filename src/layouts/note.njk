@@ -1,0 +1,42 @@
+---
+layout: page.njk
+---
+<main class="page__content">
+  <section class="note">
+    <div class="title-cover">
+      <div class="title-cover__text-container align-container">
+        <h1 class="note__title">{{ title }}</h1>
+        <time class="note__time" datetime="{{ date | dateToLocale('long')}}">{{ date | dateToLocale('long')}}</time>
+        <p class="note__tags tags">
+          {% for tag in tags %}
+            <span class="tags__item">{{ tag }}</span>
+          {% endfor %}
+        </p>
+      </div>
+    </div>
+    <div class="note__container align-container">
+      <div id="note__content" class="note__content">
+         {{ content | safe }} 
+        
+        <div class="note__outro">
+          <a class="note__back-link" href="/">
+            <svg class="note__back-icon">
+              <use xlink:href="/assets/img/theme-indicators.svg#Arrow-back"></use>
+            </svg>
+            <span>Back to notes</span>
+          </a>
+        </div>
+
+      </div>
+      <div class="note_navigation">
+          <ul class="note_nav-list">
+            {% for tap in taps %}
+              <li class="note_nav-item">
+                <a class="note_nav-item-link" data-active="false" href="#{{ tap.title | slugify }}">{{ tap.title }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+    </div>
+  </section>
+</main>

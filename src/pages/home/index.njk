@@ -1,0 +1,18 @@
+{% from 'notes-list.njk' import notesList with context %}
+
+<main class="home-page">
+  <div class="home-page__content align-container">
+    
+    <div class="home-page__intro">
+      <h1>{{intro.title}}</h1>
+      <p>{{intro.text}}</p>
+    </div>
+
+    <div class="home-page__note-cards">
+      {{ notesList(
+          notes=collections.notes | reverse
+      )}}
+    </div>
+    
+  </div>
+</main>

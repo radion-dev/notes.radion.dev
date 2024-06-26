@@ -1,0 +1,9 @@
+{% from 'note-card.njk' import noteCard with context %}
+
+{% macro notesList( notes ) %}
+  <div class="note-cards">
+    {% for note in notes %}
+      {{ noteCard(note=note)}}
+    {% endfor %}
+  </div>
+{% endmacro %}
