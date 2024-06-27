@@ -106,12 +106,13 @@ ol {
 }
 
 .note__content a {
-  color: var(--content-color);
+  color: var(--headline-text-color);
   font-weight: 400;
 }
 
 .note__content a:hover {
-  color: color(display-p3 0.06 0.32 1);
+  color: var(--content-link);
+  text-decoration: none;
 }
 
 .note__content figure {
