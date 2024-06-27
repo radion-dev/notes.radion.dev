@@ -6,6 +6,7 @@
   --text-color: #000000;
   --bg-color: #ffffff;
   --border-color: #e0e0e0;
+  --content-link: color(display-p3 0.1 0.34 0.64);
   --link-highlight-color: #e5e5e5;
   --cover-pettern: url('/assets/title-cover.svg');
 
