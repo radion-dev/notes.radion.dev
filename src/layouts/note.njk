@@ -28,15 +28,17 @@ layout: page.njk
         </div>
 
       </div>
-      <div class="note_navigation">
-          <ul class="note_nav-list">
+
+      <div class="note-vaigation note__nav-block">
+          <ul class="note-vaigation__list">
             {% for tap in taps %}
-              <li class="note_nav-item">
-                <a class="note_nav-item-link" data-active="false" href="#{{ tap.title | slugify }}">{{ tap.title }}</a>
+              <li class="note-vaigation__list-item">
+                <a class="note-vaigation__link" data-active="false" href="#{{ tap.title | slugify }}">{{ tap.title }}</a>
               </li>
             {% endfor %}
           </ul>
-        </div>
+      </div>
+
     </div>
   </section>
 </main>

@@ -67,16 +67,17 @@
 }
 
 .note__content h2,
-h3,
-h4,
-h5,
-h6 {
+.note__content h3,
+.note__content h3,
+.note__content h4,
+.note__content h5,
+.note__content h6 {
   color: var(--headline-text-color);
 }
 
 .note__content p,
-ul,
-ol {
+.note__content ul,
+.note__content ol {
   color: var(--text-color);
 }
 
@@ -107,7 +108,7 @@ ol {
 
 .note__content a {
   color: var(--headline-text-color);
-  font-weight: 400;
+  font-weight: bold;
 }
 
 .note__content a:hover {
@@ -130,19 +131,19 @@ ol {
 }
 
 .note__content ul,
-ol {
+.note__content ol {
   display: grid;
   padding-left: 1.2em;
-  row-gap: 0.6em;
+  row-gap: 0.5em;
 }
 
 .note__content p,
-li {
+.note__content li {
   font-size: 1.125em;
   line-height: 1.625em;
 }
 
-.note_navigation {
+.note__nav-block {
   display: none;
 }
 
@@ -198,7 +199,7 @@ a.note__back-link:hover {
   }
 
   .note__content p,
-  li {
+  .note__content li {
     line-height: 1.75;
   }
 
@@ -234,7 +235,7 @@ a.note__back-link:hover {
     gap: 5em;
   }
 
-  .note_navigation {
+  .note__nav-block {
     display: block;
     top: 1em;
     height: fit-content;

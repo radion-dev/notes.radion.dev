@@ -1,4 +1,4 @@
-.note_nav-list {
+.note-vaigation__list {
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -6,15 +6,17 @@
   width: 15em;
 }
 
-.note_nav-item-link {
+.note-vaigation__list-item {
+  font-size: 1.125em;
+  line-height: 1.625em;
+}
+
+.note-vaigation__link {
   line-height: 1em;
   color: var(--content-color);
   text-decoration: none;
 }
-.note_nav-item-link[data-active='true'] {
-  font-weight: 600;
-}
 
-.note_nav-item-link:hover {
+.note-vaigation__link:hover {
   text-decoration: underline;
 }

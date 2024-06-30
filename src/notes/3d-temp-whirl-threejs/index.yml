@@ -1,0 +1,8 @@
+title: Creating a 3D temperature whirl with Three.js
+desc: Explore how I reproduced a 3D temperature whirl using Three.js, inspired by a stunning video from social media. Follow along to see the step-by-step process of bringing this data visualization to life.
+date: 2024-07-10
+permalink: '3d-temp-whirl-threejs.html'
+tags:
+  - Three.js
+  - Data Visualization
+layout: note.njk

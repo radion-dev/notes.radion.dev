@@ -30,6 +30,15 @@
   line-height: 1.625em;
   color: var(--text-color);
 }
+.home-page__intro a {
+  color: var(--headline-text-color);
+  font-weight: bold;
+}
+
+.home-page__intro a:hover {
+  text-decoration: none;
+  color: var(--content-link);
+}
 
 @container notes-container (min-width: 700px) {
   .home-page__intro h1 {
