@@ -24,3 +24,19 @@
   src: url(/assets/fonts/Helvetica/helvetica-bold.woff2) format('woff2'),
     url(/assets/fonts/Helvetica/helvetica-bold.woff) format('woff');
 }
+
+@font-face {
+  font-family: InterVariable;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('/assets/fonts/Inter/InterVariable.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: InterVariable;
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('assets/fonts/Inter/InterVariable-Italic.woff2') format('woff2');
+}

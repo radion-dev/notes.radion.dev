@@ -7,6 +7,7 @@
 
 :root {
   --primary-font: 'Helvetica', sans-serif;
+  /* --primary-font: 'InterVariable', sans-serif; */
   --container-max-width: 1400px;
   --container-offset: 1.5em;
 }
