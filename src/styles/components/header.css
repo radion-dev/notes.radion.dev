@@ -153,6 +153,12 @@
   fill: var(--headline-text-color);
   stroke: var(--headline-text-color);
 }
+
+/* .theme-menu__icon svg > path {
+  fill: var(--headline-text-color);
+  stroke: var(--headline-text-color);
+} */
+
 .theme-menu__text {
   color: var(--headline-text-color);
 }
